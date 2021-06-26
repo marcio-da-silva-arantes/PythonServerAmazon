@@ -11,3 +11,5 @@ git init                                                        # inicia um repo
 git status
 .gitignore
 git status
+git add .
+git commit -m 'init'

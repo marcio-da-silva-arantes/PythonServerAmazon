@@ -1,0 +1,13 @@
+pip3 list                                                       # lista as libs instaladas no ambiente virtual
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py         # baixa a versão mais atual do pip
+python get-pip.py                                               # instala a versão do pip que foi baixada
+pip3 list
+pip install flask                                               # instala o flask
+pip3 list
+pip3 freeze > requirements.txt                                  # grava todas as libs instaladas no env no arquivo de requirements
+pip3 install -r requirements.txt                                # comando para instalar todas as libs do requirements
+flask run                                                       # inicia servidor flask
+git init                                                        # inicia um repositório git
+git status
+.gitignore
+git status

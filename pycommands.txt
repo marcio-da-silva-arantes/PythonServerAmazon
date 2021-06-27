@@ -12,4 +12,8 @@ git status
 .gitignore
 git status
 git add .
-git commit -m 'init'
+git commit -m "init"
+#antes de seguir: ir no github e criar um novo repositorio publico chamado PythonServerAmazon
+git remote add origin https://github.com/marcio-da-silva-arantes/PythonServerAmazon.git
+git branch -M main
+git push -u origin main

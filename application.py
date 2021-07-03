@@ -9,4 +9,6 @@ def hello_world():
     return 'Maximiza Tecnologia: online Inteligence'
 
 if __name__ == '__main__':
-    serve(app, host='0.0.0.0', port=5000)  # WSGI server
+    serve(app, host='0.0.0.0', port=5000)  # WSGI serverpy
+
+    
